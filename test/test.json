@@ -1,0 +1,15 @@
+{
+  "number": 1,
+  "string": "test",
+  "true": true,
+  "false": false,
+  "null": null,
+  "object": {
+    "subkey": {
+      "foo": 2,
+      "bar": "3"
+    },
+    "subkey2": "aaaa"
+  },
+  "array": [4, 100, "bbbb"]
+}

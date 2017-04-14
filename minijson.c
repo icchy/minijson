@@ -170,7 +170,7 @@ parse_status parse_object(char *beg, char **end)
 parse_status parse_array(char *beg, char **end)
 {
   if(*beg != '[')
-    return PARSE_SUCCEEDED;
+    return PARSE_FAILED_ARRAY;
 
   char *p = beg;
   parse_status ret;

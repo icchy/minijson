@@ -4,7 +4,7 @@
 #include <string.h>
 
 #define ISSPACE(c) ((char)(c) == ' ' || (char)(c) == '\n')
-#define SKIPSPACE(c) while(ISSPACE(*p))++p
+#define SKIPSPACE(p) while(ISSPACE(*p))++p
 
 
 // internal use
